@@ -41,4 +41,4 @@ for status, count in status_counts.items():
     st.progress(min(count / len(filtered_df), 1.0))
 
 # Display table
-st.subheader("
+st.subheader("📋 Project List")
